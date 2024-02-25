@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etusivu</title>
+  <style>
+    /* Taustaväri koko sivulle */
+    body {
+      background-color: skyblue;
+    }
+
+    /* Tyyli otsikoille */
+    .header {
+      font-size: 11px;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 10px;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      /* Poistetaan oletuslinkkityyli */
+    }
+
+    /* Tyyli valitulle sivulle */
+    .current-page {
+      background-color: navy;
+    }
+
+    /* Tyyli yläpalkille */
+    .header-container {
+      padding: 10px;
+      border-radius: 10px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: blue;
+    }
+
+    /* Tyyli tervetuloatekstille */
+    .welcome-text {
+      color: black;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+
+    /* Tyyli karttattekstille */
+    .map-text {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    /* Tyyli karttakuvalle */
+    .map-image {
+      display: block;
+      margin: 10px auto;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Yläpalkki -->
+  <div class="header-container">
+    <!-- Linkit muihin sivuihin -->
+    <a href="Etusivu.html" class="header current-page">ETUSIVU</a>
+    <a href="Matkailija.html" class="header">MATKAILIJA</a>
+    <a href="Matkat.html" class="header">MATKAT</a>
+    <a href="Vinkit.html" class="header">VINKIT</a>
+  </div>
+
+  <!-- Tervetuloa-teksti -->
+  <div class="welcome-text">
+    Tällä sivustolla pääset tutustumaan matkailuun minun näkökulmastani.<br>
+    <br>
+    Sivustolla tekemiäni reissuja kuvin ja tarinoin. Jaan sivustolla myöskin itse<br>
+    tärkeiksi kokemiani vinkkejä ja linkkejä matkusteluun liittyen. Tarkoitus on<br>
+    antaa sinulle ajatuksia eri matkakohteista sekä reissujen<br>
+    toteuttamistavoista.<br>
+    <br>
+    Voit lukea minusta lisää valitsemalla yläpalkista Matkailija.<br>
+    Eri reissukohteeni löydät yläpalkista nimellä Matkat.<br>
+    Mikäli olet kiinostunut matkailuvinkeistä, valitse Vinkit.<br>
+    <br>
+    Turvallista matkaa!
+  </div>
+
+  <!-- Karttateksti -->
+  <div class="map-text">Matkusteluni kartalla:</div>
+
+  <!-- Karttakuva -->
+  <div>
+    <img src="Matkailut kartalla.jpg" alt="Maailman kartta, jossa väritetty matkustetut maat" class="map-image">
+  </div>
+</body>
+
+</html>

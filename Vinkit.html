@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VINKIT</title>
+  <style>
+    /* Taustaväri */
+    body {
+      background-color: skyblue;
+    }
+
+    /* Headerit */
+    .header-container {
+      padding: 10px;
+      border-radius: 10px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: blue;
+    }
+
+    .header {
+      font-size: 11px;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 10px;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .current-page {
+      background-color: navy;
+    }
+
+    /* Teksti */
+    .content {
+      margin: 20px;
+    }
+
+    /* Osioita varten */
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .section-text {
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-container">
+    <a href="Etusivu.html">
+      <div class="header">ETUSIVU</div>
+    </a>
+    <a href="Matkailija.html">
+      <div class="header">MATKAILIJA</div>
+    </a>
+    <a href="Matkat.html">
+      <div class="header">MATKAT</div>
+    </a>
+    <a href="Vinkit.html">
+      <div class="header current-page">VINKIT</div>
+    </a>
+  </div>
+  <div class="content">
+    <p>Voit valita alla olevalta listalta mitä vinkkejä tarvitset. Voit myös selata sivua alaspäin nähdäksesi kaikki vinkit.</p>
+    <ul class="tip-list">
+      <li><a href="#matkakohteen-valinta">Matkakohteen valinta</a></li>
+      <li><a href="#matkan-suunnittelu">Matkan suunnittelu</a></li>
+      <li><a href="#pakkaaminen">Pakkaaminen</a></li>
+      <li><a href="#matkailu-moottoripyoralla">Matkailu moottoripyörällä</a></li>
+      <li><a href="#majoittuminen">Majoittuminen</a></li>
+      <li><a href="#ajoneuvon-vuokraus">Ajoneuvon vuokraus</a></li>
+    </ul>
+    <!-- Osioita varten -->
+    <div class="section" id="matkakohteen-valinta">
+      <h2 class="section-title">Matkakohteen valinta</h2>
+      <p class="section-text">Valitse matkakohde huolellisesti ottaen huomioon esimerkiksi budjetti, mieltymykset ja matkustusaika.</p>
+    </div>
+    <div class="section" id="matkan-suunnittelu">
+      <h2 class="section-title">Matkan suunnittelu</h2>
+      <p class="section-text">Suunnittele matka etukäteen, varaa majoitus ja kuljetukset ajoissa ja tutustu matkakohteen nähtävyyksiin ja kulttuuriin.</p>
+    </div>
+    <div class="section" id="pakkaaminen">
+      <h2 class="section-title">Pakkaaminen</h2>
+      <p class="section-text">Pakkaa matkallesi tarvittavat tavarat ja vaatteet huolellisesti, ottaen huomioon matkakohteen ilmasto ja aktiviteetit.</p>
+    </div>
+    <div class="section" id="matkailu-moottoripyoralla">
+      <h2 class="section-title">Matkailu moottoripyörällä</h2>
+      <p class="section-text">Jos suunnittelet matkustavasi moottoripyörällä, varmista että sinulla on tarvittava ajokortti, vakuutukset ja kunnollinen varustus.</p>
+    </div>
+    <div class="section" id="majoittuminen">
+      <h2 class="section-title">Majoittuminen</h2>
+      <p class="section-text">Valitse majoitusmatkakohteesta riippuen hotelli, hostelli, Airbnb tai muu vaihtoehto, joka sopii budjettiisi ja mieltymyksiisi.</p>
+    </div>
+    <div class="section" id="ajoneuvon-vuokraus">
+      <h2 class="section-title">Ajoneuvon vuokraus</h2>
+      <p class="section-text">Jos tarvitset ajoneuvoa matkallasi, vuokraa se luotettavalta vuokraamolta ja varmista, että sinulla on tarvittavat vakuutukset ja ajokortti.</p>
+    </div>
+  </div>
+</body>
+
+</html>

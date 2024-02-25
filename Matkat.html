@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matkat Sivu</title>
+  <style>
+    /* Taustaväri koko sivulle */
+    body {
+      background-color: skyblue;
+    }
+
+    /* Tyyli otsikoille */
+    .header-container {
+      padding: 10px;
+      border-radius: 10px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: blue;
+    }
+
+    /* Tyyli otsikoille */
+    .header {
+      font-size: 11px;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 10px;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    /* Tyyli nykyiselle sivulle */
+    .current-page {
+      background-color: navy;
+    }
+
+    /* Sisältölohkojen tyyli */
+    .content-block {
+      display: flex;
+      margin: 20px;
+    }
+
+    /* Tekstin tyyli sisältölohkoissa */
+    .content-block .text {
+      flex: 1;
+    }
+
+    /* Kuvan tyyli sisältölohkoissa */
+    .content-block .image {
+      flex: 1;
+    }
+
+    /* Tekstin tyyli linkin sisällä */
+    .text a {
+      color: black;
+      text-decoration: none;
+    }
+
+    /* Tekstin tyyli linkin päällä */
+    .text a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-container">
+    <a href="etusivu.html">
+      <div class="header">ETUSIVU</div>
+    </a>
+    <a href="matkailija.html">
+      <div class="header">MATKAILIJA</div>
+    </a>
+    <div class="header current-page">MATKAT</div>
+    <a href="vinkit.html">
+      <div class="header">VINKIT</div>
+    </a>
+  </div>
+  <div class="content-block">
+    <div class="text">
+      <h2><a href="Indonesia_reppureissu_2009.html">Indonesia reppureissu 2009</a></h2>
+      <p>3,5 viikkoa kahden kaverin kanssa
+        Mt Bromon kautta Balille,
+        Lombokiin ja Gilin saarille.<br>
+        <br>
+      #sukellus
+      </p>
+    </div>
+    <div class="image">
+      <img src="Indonesia_matka.jpg" alt="Kaksi henkilöä katsomassa merimaisemaa" class="map-image" style="width: 100%;">
+    </div>
+  </div>
+  <div class="content-block">
+    <div class="text">
+      <h2>Alpit mp-reissu 2015</h2>
+      <p>2 viikkoa isän kanssa.<br>
+        <br>
+      #moottoripyörä #roadtrip
+      </p>
+    </div>
+    <div class="image">
+      <img src="Alpit_matka.jpg" alt="Moottoripyörä ja alppimaisema taustalla" class="map-image" style="width: 100%;">
+    </div>
+  </div>
+</body>
+
+</html>
