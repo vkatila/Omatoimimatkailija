@@ -1,0 +1,2 @@
+# Omatoimimatkailija
+Tämä sivusto kertoo matkailuhistoriastani antaen vinkkejä muille omatoimimatkailijoille
